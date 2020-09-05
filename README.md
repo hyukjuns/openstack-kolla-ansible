@@ -230,17 +230,17 @@ $ kolla-ansible -i ./multinode deploy
 
 ### 생성된 오픈스택 화면
 
-![Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled.png](Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled.png)
+![images/Untitled.png](images/Untitled.png)
 
 설치한 뒤 Dashboard 접속 화면
 
-![Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%201.png](Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%201.png)
+![images/Untitled%201.png](images/Untitled%201.png)
 
 admin 사용자로 로그인
 
 위 오른쪽 상단 OpenStack RC File을 로컬로 복사하여 source <OpenStack RC File>로 CLI 로그인 가능, Packstack 의 keystonerc 파일 대체
 
-![Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%202.png](Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%202.png)
+![images/Untitled%202.png](images/Untitled%202.png)
 
 Controller Node에서 설치 확인, docker container로 구성된걸 확인
 
@@ -278,11 +278,11 @@ Create Resources
 7. 볼륨
 ```
 
-![Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%203.png](Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%203.png)
+![images/Untitled%203.png](images/Untitled%203.png)
 
 testuser overview, 생성된 리소스들 확인
 
-![Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%204.png](Kolla-Ansible%202c9138057245479bb28881aa3f0ef70d/Untitled%204.png)
+![images/Untitled%204.png](images/Untitled%204.png)
 
 생성한 cirros 인스턴스 콘솔화면
 
